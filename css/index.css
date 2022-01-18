@@ -1,0 +1,48 @@
+  #top {
+      top: 0;
+      padding: 0;
+      position: absolute;
+      width: 100%;
+      height: auto;
+      background-color: rgba(255, 255, 255, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+  }
+  
+  #top p {
+      margin: 0;
+      letter-spacing: 1px;
+      font-family: 'Josefin Slab', serif;
+      font-size: 42px;
+  }
+  
+  section {
+      position: relative;
+      width: 90%;
+      height: 500px;
+      right: auto;
+      z-index: 0;
+      background-color: rgba(255, 255, 255, 0.05);
+      justify-content: center;
+      align-items: center;
+      top: 5em;
+      z-index: 1;
+  }
+  
+  #articulo_carrusel {
+      position: relative;
+      left: 0;
+  }
+  
+  #myCarousel {
+      width: fit-content;
+      height: fit-content;
+  }
+  
+  .logo_nombre {
+      width: fit-content;
+      height: fit-content;
+      object-fit: cover;
+  }
